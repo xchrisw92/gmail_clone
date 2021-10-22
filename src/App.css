@@ -1,0 +1,158 @@
+
+
+body{
+  background-color: #212121;
+  height: 100vh;
+}
+h1,h2,h3,p{
+  color: white;
+}
+
+h3{
+  margin: 0px;
+
+}
+p{
+  margin: 0px;
+}
+
+input{
+  background-color: transparent;
+  padding: 12px;
+  border: none;
+  font-size: medium;
+  color: white;
+  ring: none; 
+  -webkit-appearance: none;
+  outline: none;
+}
+
+button{
+  background-color: chartreuse;
+  color: black;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: deeppink;
+}
+
+
+.main{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.emailHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailTitle{
+  padding: 10px 7px;
+}
+
+.emailTitle:hover{
+  cursor: pointer;
+}
+
+.emailTitle:active{
+  background-color: #343434;
+}
+.emailTitleSelected{
+  background-color: #323232;
+}
+
+.emailList{
+height: 87vh;
+
+}
+.secondaryText{
+  color: rgb(178, 176, 176);
+}
+.emailMessage{
+  padding-top: 20px;
+}
+.search{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 12px 8px;
+  gap: 4px;
+
+}
+.clearButton{
+  font-size: x-large;
+  color: #9b9a9a;
+  padding: 2px 5px;
+
+}
+.composeContainer{
+  position:absolute;
+  z-index: 50;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: #343434;
+  width: 400px;
+  border-radius: 10px 10px 0 0;
+}
+
+.composeMessage{
+  height: 400px;
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  outline: none;
+  border-radius: 10px;
+  margin: 8px 0px;
+  font-size: large;
+}
+
+.composeContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.composeHeader{
+  display: flex;
+  justify-content: space-between;
+  background-color: #282828;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.sendButton{
+  align-self: start;
+}
+
+.composeButton{
+  margin: 12px;
+  align-self: end;
+}
+
+.rightSide{
+  display: flex;
+  flex-direction: column;
+}
+.composeInput{
+  border-bottom: 1px solid gray;
+}
+
+.searchBar{
+  background-color: rgba(255,255,255,.1);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.emailListContainer{
+  border: 1px solid lightgray;
+  overflow-y: auto;
+  margin: 10px;
+  height: 100%;
+}
+.emailDetails{
+  padding: 5px;
+}
+
+
